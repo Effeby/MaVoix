@@ -15,8 +15,8 @@ Suivez ces instructions pour mettre en marche le projet sur votre machine locale
 ### Installation
 
 1. Clonez le dépôt sur votre machine locale :
-   git clone https://github.com/votre-nom-utilisateur/projet-mavoix.git
-
+   git clone https://github.com/Effeby/MaVoix.git
+   
 Naviguez vers le répertoire du projet :
 cd projet-Page
 
