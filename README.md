@@ -1,20 +1,51 @@
-# MaVoix
-Notre projet a été réaliser avec django un framework de python, donc pour le lancer en local vous devez avoir python sur votre mahcine.
+# Projet MaVoix
 
-D'abord ouvrez le dossier dans votre éditeur.
+Bienvenue dans le projet MaVoix ! Ce projet est une application web construite avec Django qui fournit une plateforme aux utilisateurs pour interagir avec différentes fonctionnalités.
 
-créer un environnement virtuel avec la commande :
+## Démarrage
+
+Suivez ces instructions pour mettre en marche le projet sur votre machine locale.
+
+### Prérequis
+
+- Python (3.7 ou supérieur)
+- Django (4.2.4)
+- Environnement virtuel (optionnel, mais recommandé)
+
+### Installation
+
+1. Clonez le dépôt sur votre machine locale :
+   git clone https://github.com/votre-nom-utilisateur/projet-mavoix.git
+
+Naviguez vers le répertoire du projet :
+cd projet-Page
+
+Créez un environnement virtuel (optionnel, mais recommandé) :
 python -m venv venv
 
-Activer maintenant l'environnement virtuel avec la commande :
-venv/scripts/activate
+#Pour activer l'environnement virtuel
+# Sur Windows, utilisez : venv\Scripts\activate   
 
-une fois ces étapes reussi, on passe à l'installation des packages:
-vous devez être connecté a internet pour installer
+Installez les dépendances du projet :
+pip install -r requirements.txt
 
--Faite la commande : pip install django
--Ensuite faite la commande : pip install pillow
+Exécutez les migrations de la base de données :
+python manage.py migrate
 
-on passe au lancement du site:
-Faite la commande : python manage.py runserver
-normalement un lien doit s'afficher pour le site, cliquer dessus et vous serrez sur le site
+Utilisation
+Démarrez le serveur de développement :
+python manage.py runserver
+
+Ouvrez votre navigateur web et accédez à http://127.0.0.1:8000/ pour accéder à l'application.
+
+Structure du Projet
+Acceuil: Cette application contient les vues, les templates et autres ressources liées à l'interface utilisateur principale.
+Accueil/urls.py: Configuration des URL pour le projet.
+Page/settings.py: Paramètres Django pour le projet.
+static/: Répertoire pour les fichiers statiques (CSS, JS, images).
+templates/: Répertoire pour les templates HTML.
+
+
+
+
+
