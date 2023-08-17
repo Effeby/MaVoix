@@ -36,7 +36,7 @@ Utilisation
 Démarrez le serveur de développement :
 python manage.py runserver
 
-Ouvrez votre navigateur web et accédez à http://127.0.0.1:8000/ pour accéder à l'application.
+Un lien vers le site s'affichera et vous donnera acces au site.
 
 Structure du Projet
 Acceuil: Cette application contient les vues, les templates et autres ressources liées à l'interface utilisateur principale.
